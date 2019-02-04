@@ -1,6 +1,6 @@
 package other;
 
-import AccessModifiers.A;
+import accessmodifiers.A;
 
 public class C extends A {
 	

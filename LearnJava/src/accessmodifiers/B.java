@@ -1,4 +1,4 @@
-package AccessModifiers;
+package accessmodifiers;
 
 public class B {
 //classes within the same package can access the members which are not private, a is defined as private

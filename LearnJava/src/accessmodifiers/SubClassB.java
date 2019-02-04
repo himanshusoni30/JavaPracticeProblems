@@ -1,4 +1,4 @@
-package AccessModifiers;
+package accessmodifiers;
 
 public class SubClassB extends SuperClass
 {

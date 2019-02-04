@@ -2,9 +2,9 @@ package other;
 
 import org.junit.Test;
 
-import AccessModifiers.SubClassA;
-import AccessModifiers.SubClassB;
-import AccessModifiers.SuperClass;
+import accessmodifiers.SubClassA;
+import accessmodifiers.SubClassB;
+import accessmodifiers.SuperClass;
 
 public class Child extends SuperClass{
 	@Test
