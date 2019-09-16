@@ -29,7 +29,7 @@ public class MergeSort {
 		return arr;
 	}
 
-	public int[] sortArray(int[] arr) {
+	public int[] splitArray(int[] arr) {
 		int l = arr.length;
 		int mid = l / 2;
 
@@ -46,8 +46,8 @@ public class MergeSort {
 				right[j] = arr[mid+j];
 			}
 		}
-		sortArray(left);
-		sortArray(right);
+		splitArray(left);
+		splitArray(right);
 		return mergeSortedArrays(left, right, arr);
 	}
 	
@@ -58,11 +58,12 @@ public class MergeSort {
 	}
 	
 	public static void main(String[] args) {
-		int[] arr = { 17, 25, 31, 13, 2, 32, 65, 100, 2000, 20, 23, 50};
+//		int[] arr = { 17, 25, 31, 13, 2, 32, 65, 100, 2000, 20, 23, 50};
+		int[] arr = { 17, 25, 31, 13, 2};
 		MergeSort obj = new MergeSort();
 		System.out.println("Array before sorting:");
 		obj.printSortedArray(arr);
-		obj.sortArray(arr);
+		obj.splitArray(arr);
 		System.out.println("\n\nArray after sorting in ascending order: ");
 		obj.printSortedArray(arr);
 	}

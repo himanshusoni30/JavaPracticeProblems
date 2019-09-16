@@ -1,6 +1,7 @@
 package objectclassmethods;
 
 public class Passenger {
+	
 	String FirstName;
 	public String getFirstName() {
 		return FirstName;
