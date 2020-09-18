@@ -1,5 +1,5 @@
 /**
- * Write a program to reverse a String.
+ * Write a program to reverse a String.  
  */
 
 package question;
