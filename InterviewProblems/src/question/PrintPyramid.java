@@ -10,7 +10,7 @@ package question;
 
 import java.util.Scanner;
 
-public class IntQuest4 {
+public class PrintPyramid {
 
 	public static void prettyPrint(int n) {
 		int i = n - 1;
@@ -45,7 +45,7 @@ public class IntQuest4 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a positive integer: ");
 		int n = scan.nextInt();
-		IntQuest4.prettyPrint(n);
+		PrintPyramid.prettyPrint(n);
 	}
 
 }

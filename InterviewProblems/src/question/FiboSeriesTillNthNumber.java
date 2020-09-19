@@ -6,7 +6,7 @@ package question;
 
 import java.util.Scanner;
 
-public class IntQuest6 {
+public class FiboSeriesTillNthNumber {
 
 	public static void fibonacci(int n) {
 		int i = 0, 
@@ -30,7 +30,7 @@ public class IntQuest6 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a positive integer: ");
 		int n = scan.nextInt();
-		IntQuest6.fibonacci(n);
+		FiboSeriesTillNthNumber.fibonacci(n);
 	}
 
 }

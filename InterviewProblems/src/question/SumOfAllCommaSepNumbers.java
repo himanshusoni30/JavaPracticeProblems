@@ -6,7 +6,7 @@ package question;
 
 import java.util.Scanner;
 
-public class IntQuest5 {
+public class SumOfAllCommaSepNumbers {
 
 	public static int calculateSum(String s) {
 		int i = 0, w = 0, sum = 0;
@@ -30,7 +30,7 @@ public class IntQuest5 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter comma separated numbers: ");
 		String s = scan.nextLine();
-		System.out.println("Sum of numbers present in " + s + " is: " + IntQuest5.calculateSum(s));
+		System.out.println("Sum of numbers present in " + s + " is: " + SumOfAllCommaSepNumbers.calculateSum(s));
 	}
 
 }

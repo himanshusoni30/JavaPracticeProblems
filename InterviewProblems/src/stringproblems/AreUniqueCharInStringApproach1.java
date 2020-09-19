@@ -5,7 +5,7 @@
 
 package stringproblems;
 
-public class Problem4 {
+public class AreUniqueCharInStringApproach1 {
 	static String s1 = "angella";
 	public static boolean isUniqueChars() {
 		int i[] = new int[256];
@@ -24,6 +24,6 @@ public class Problem4 {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Does string "+s1+" contains unique characters? "+Problem4.isUniqueChars());
+		System.out.println("Does string "+s1+" contains unique characters? "+AreUniqueCharInStringApproach1.isUniqueChars());
 	}
 }

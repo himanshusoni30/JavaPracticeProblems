@@ -7,7 +7,7 @@
 
 package question;
 
-public class IntQuest3 {
+public class PrintUniqueCharsInStringAndNthRepChar {
 	static String s = new String("Thequickerbrownfoxjumpsoveralazydog");
 	static StringBuffer sb = new StringBuffer();
 
@@ -47,6 +47,6 @@ public class IntQuest3 {
 	}
 
 	public static void main(String[] args) {
-		IntQuest3.m1(3);
+		PrintUniqueCharsInStringAndNthRepChar.m1(3);
 	}
 }

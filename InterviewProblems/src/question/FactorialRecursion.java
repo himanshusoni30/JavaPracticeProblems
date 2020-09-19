@@ -6,7 +6,7 @@ package question;
 
 import java.util.Scanner;
 
-public class IntQuest9 {
+public class FactorialRecursion {
 	static int p = 1;
 
 	public static int factorial(int n) {
@@ -23,7 +23,7 @@ public class IntQuest9 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a positive integer: ");
 		int n = scan.nextInt();
-		System.out.println("Factorial of a given number "+n+" is: " + IntQuest9.factorial(n));
+		System.out.println("Factorial of a given number "+n+" is: " + FactorialRecursion.factorial(n));
 	}
 
 }

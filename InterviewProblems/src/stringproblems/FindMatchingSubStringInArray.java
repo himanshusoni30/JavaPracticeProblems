@@ -1,6 +1,10 @@
+/***
+ * Write a program to find the matching pattern in array of Strings.
+ */
+
 package stringproblems;
 
-public class Problem6 {
+public class FindMatchingSubStringInArray {
 	public static String compareChars(String s1, String s2) {
 		String result = "";
 

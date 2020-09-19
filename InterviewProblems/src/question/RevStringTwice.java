@@ -4,7 +4,7 @@
 
 package question;
 
-public class IntQuest1 {
+public class RevStringTwice {
 	static StringBuffer sb = new StringBuffer("position 1 no. @ is video This");
 
 	public static void revString() {
@@ -42,7 +42,7 @@ public class IntQuest1 {
 
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
-		IntQuest1.revString();
+		RevStringTwice.revString();
 		long endTime = System.currentTimeMillis();
 		System.out.println("Execution start time: " + startTime);
 		System.out.println("Execution end time: " + endTime);

@@ -4,7 +4,7 @@
 
 package question;
 
-public class IntQuest2 {
+public class PrintUniqueCharsInString {
 	static String s = new String("Thequickbrownfoxjumpsoveralazydog");
 	static StringBuffer sb = new StringBuffer();
 
@@ -35,6 +35,6 @@ public class IntQuest2 {
 	}
 
 	public static void main(String[] args) {
-		IntQuest2.m1();
+		PrintUniqueCharsInString.m1();
 	}
 }

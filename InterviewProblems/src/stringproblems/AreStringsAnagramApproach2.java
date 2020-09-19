@@ -5,7 +5,7 @@
 
 package stringproblems;
 
-public class Problem3 {
+public class AreStringsAnagramApproach2 {
 	static String s1 = "angel";
 	static String s2 = "glean";
 
@@ -33,6 +33,6 @@ public class Problem3 {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Are strings " + s1 + " and " + s2 + " anagrams? " + Problem3.anagram());
+		System.out.println("Are strings " + s1 + " and " + s2 + " anagrams? " + AreStringsAnagramApproach2.anagram());
 	}
 }

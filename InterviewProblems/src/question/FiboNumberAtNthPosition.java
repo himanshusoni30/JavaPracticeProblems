@@ -8,7 +8,7 @@ package question;
 
 import java.util.Scanner;
 
-public class IntQuest7 {
+public class FiboNumberAtNthPosition {
 	static int a = -1, b = 1, c = 0;
 
 	public static int fibo(int n) {
@@ -26,6 +26,6 @@ public class IntQuest7 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter a positive integer: ");
 		int n = scan.nextInt();
-		System.out.println("Number in fibonacci series at nth position is: " + IntQuest7.fibo(n));
+		System.out.println("Number in fibonacci series at nth position is: " + FiboNumberAtNthPosition.fibo(n));
 	}
 }

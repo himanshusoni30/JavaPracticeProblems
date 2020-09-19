@@ -5,7 +5,7 @@
 
 package stringproblems;
 
-public class Problem1 {
+public class RevStrWithoutUtils {
 	static StringBuffer s = new StringBuffer("This is a string.");
 	
 	public static void reverseStr() {
@@ -26,6 +26,6 @@ public class Problem1 {
 	}
 	
 	public static void main(String[] args) {
-		Problem1.reverseStr();
+		RevStrWithoutUtils.reverseStr();
 	}
 }
