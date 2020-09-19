@@ -28,8 +28,10 @@ public class IntQuest4 {
 				/**
 				 * when j is less than i, j should iterate less than the given
 				 * number and should print blank if j is less than n
+				 * 
+				 * else if (j < i && j < n) 
 				 */
-				else if (j < i && j < n) {
+				else {
 					System.out.print(" ");
 				}
 				j++;
