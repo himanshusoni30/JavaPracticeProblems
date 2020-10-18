@@ -1,0 +1,20 @@
+package regexp;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class RegexWordMatch {
+	public static void main(String[] args) {
+		int count = 0;
+		Pattern p = Pattern.compile("[+\\w\b]");
+		Matcher m = p.matcher("How many words?");
+		
+		while(m.find()) {
+			count++;
+			System.out.print("Starting index of pattern: "+m.start()+" | ");
+			System.out.print("End index of pattern: "+m.end()+" | ");
+			System.out.println("Pattern that was matched: "+m.group());
+		}
+		
+		System.out.println("Number of occurrence of the pattern in target string: "+count);
+	}
+}
